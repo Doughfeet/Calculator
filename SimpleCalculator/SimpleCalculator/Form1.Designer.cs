@@ -47,7 +47,7 @@
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.TextBoxResult = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelCurrentOperation = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -222,7 +222,7 @@
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(100, 100);
             this.button18.TabIndex = 0;
-            this.button18.Text = ".";
+            this.button18.Text = ",";
             this.button18.UseVisualStyleBackColor = true;
             this.button18.Click += new System.EventHandler(this.Button_Click);
             // 
@@ -258,23 +258,23 @@
             this.TextBoxResult.Text = "0";
             this.TextBoxResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label1
+            // labelCurrentOperation
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.Window;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(43, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(299, 108);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
+            this.labelCurrentOperation.AutoSize = true;
+            this.labelCurrentOperation.BackColor = System.Drawing.SystemColors.Window;
+            this.labelCurrentOperation.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCurrentOperation.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.labelCurrentOperation.Location = new System.Drawing.Point(43, 41);
+            this.labelCurrentOperation.Name = "labelCurrentOperation";
+            this.labelCurrentOperation.Size = new System.Drawing.Size(0, 61);
+            this.labelCurrentOperation.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(737, 837);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelCurrentOperation);
             this.Controls.Add(this.TextBoxResult);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button10);
@@ -325,7 +325,7 @@
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.TextBox TextBoxResult;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelCurrentOperation;
     }
 }
 
