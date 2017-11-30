@@ -92,16 +92,18 @@
             this.button4.TabIndex = 0;
             this.button4.Text = "/";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.Operator_Click);
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(503, 287);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(164, 100);
+            this.button5.Size = new System.Drawing.Size(185, 100);
             this.button5.TabIndex = 0;
             this.button5.Text = "CE";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.ClearEntry_Click);
             // 
             // button6
             // 
@@ -145,16 +147,18 @@
             this.button9.TabIndex = 0;
             this.button9.Text = "*";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.Operator_Click);
             // 
             // button10
             // 
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.Location = new System.Drawing.Point(503, 422);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(164, 100);
+            this.button10.Size = new System.Drawing.Size(185, 100);
             this.button10.TabIndex = 0;
             this.button10.Text = "C";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.Clear_Click);
             // 
             // button11
             // 
@@ -198,6 +202,7 @@
             this.button14.TabIndex = 0;
             this.button14.Text = "-";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.Operator_Click);
             // 
             // button16
             // 
@@ -230,23 +235,25 @@
             this.button19.TabIndex = 0;
             this.button19.Text = "+";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.Operator_Click);
             // 
             // button20
             // 
             this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button20.Location = new System.Drawing.Point(503, 567);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(164, 240);
+            this.button20.Size = new System.Drawing.Size(185, 240);
             this.button20.TabIndex = 0;
             this.button20.Text = "=";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.Equal_Click);
             // 
             // TextBoxResult
             // 
             this.TextBoxResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBoxResult.Location = new System.Drawing.Point(43, 152);
             this.TextBoxResult.Name = "TextBoxResult";
-            this.TextBoxResult.Size = new System.Drawing.Size(624, 116);
+            this.TextBoxResult.Size = new System.Drawing.Size(645, 116);
             this.TextBoxResult.TabIndex = 1;
             this.TextBoxResult.Text = "0";
             this.TextBoxResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -266,7 +273,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(711, 831);
+            this.ClientSize = new System.Drawing.Size(737, 837);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TextBoxResult);
             this.Controls.Add(this.button20);
